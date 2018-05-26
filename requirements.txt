@@ -1,0 +1,3 @@
+Flask==0.12.2
+sqlalchemy==1.2.7
+flask_sqlalchemy==2.3.2
