@@ -1,21 +1,26 @@
-from flask import render_template
-from app import app
+from app import app, db
 import csv
+import flask
+
+from app.models import DogBreeds
+
 
 @app.route('/')
 @app.route('/index')
 def index(): 
-    return "Welcome!"
-#@app.route('/load')
-#def load(): #loads data
-    # def load_resources(self):
-    #   with open('dogweight.csv', 'rb') as dogweightcsv: #open csv
-     #      reader = csv.reader(dogweightcsv, delimiter=csv.excel.delimiter, quotechar=csv.excel.quotechar)    #load each row as an instance (dataitem) of dogbreedclass
-      #     next(reader, None)  # skip the headers
-       #    for row in reader:
-        #       data = Muttweight(id=row[0], breed=row[1], minweight=row[2], maxweight=row[3])
-         #      db.session.add(resource)
-          # print("Resources loaded.  There are now %i resources into the database." % db.session.query(ThrivResource).count())
+    message = { "hello":"world"}
+    return flask.jsonify(message)
+
+@app.route('/load')
+def load_resources():
+    with open('app/dogweight.csv', 'rt') as dogweightcsv: #open csv
+        reader = csv.reader(dogweightcsv, delimiter=",")    #load each row as an instance (dataitem) of dogbreedclass
+        print(reader)
+        next(reader, None)  # skip the headers
+        for row in reader:
+            data = DogBreeds(id=row[0], breedname=row[1], minweight=row[2], maxweight=row[3])
+            db.session.add(data)
+        print("Resources loaded.  There are now %i resources into the database." % db.session.query(DogBreeds).count())
        #db.session.commit()
     
 #def getbreeds():

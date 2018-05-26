@@ -1,195 +1,195 @@
-1 Affenpinschers , 7.0 , 10.0
-2 Afghan Hounds , 50.0 , 60.0
-3 Airedale Terriers , 50.0 , 70.0
-4 Akitas , 70.0 , 130.0
-5 Alaskan Malamutes , 75.0 , 85.0
-6 American English Coonhounds , 45.0 , 65.0
-7 Toy American Eskimo Dog , 6.0 , 10.0
-8 Miniature American Eskimo Dog , 10.0 , 20.0
-9 Standard American Eskimo Dog 25 , 35.0 , 35.0
-10 American Foxhounds , 60.0 , 70.0
-11 American Hairless Terriers , 12.0 , 16.0
-12 American Staffordshire Terriers , 40.0 , 70.0
-13 Anatolian Shepherd Dogs , 80.0 , 150.0
-14 Australian Cattle Dogs , 35.0 , 50.0
-15 Australian Shepherds , 40.0 , 65.0
-16 Australian Terriers , 12.0 , 18.0
-17 Basenjis , 22.0 , 24.0
-18 Basset Hounds , 40.0 , 65.0
-19 Beagles , 18.0 , 35.0
-20 Bearded Collies , 45.0 , 55.0
-21 Beaucerons , 70.0 , 110.0
-22 Bedlington Terriers , 17.0 , 23.0
-23 Belgian Malinois , 40.0 , 80.0
-24 Belgian Sheepdogs , 45.0 , 75.0
-25 Belgian Tervuren , 45.0 , 75.0
-26 Bergamasco , 57.0 , 84.0
-27 Berger Picards , 50.0 , 70.0
-28 Bernese Mountain Dogs , 70.0 , 115.0
-29 Bichons Frises , 12.0 , 18.0
-30 Black and Tan Coonhounds , 65.0 , 110.0
-31 Black RussianTerriers , 80.0 , 130.0
-32 Bloodhounds , 80.0 , 110.0
-33 Bluetick Coonhounds , 45.0 , 80.0
-34 Boerboels , 150.0 , 200.0
-35 Border Collies , 30.0 , 55.0
-36 Border Terriers , 11.5 , 15.5
-37 Borzois , 60.0 , 105.0
-38 Boston Terriers , 12.0 , 25.0
-39 Bouviers des Flandres , 70.0 , 110.0
-40 Boxers , 40.0 , 80.0
-41 Briards , 55.0 , 100.0
-42 Brittanys , 30.0 , 40.0
-43 Brussels Griffons , 8.0 , 10.0
-44 Bull Terriers , 50.0 , 70.0
-45 Bulldogs , 40.0 , 50.0
-46 Bullmastiffs , 100.0 , 130.0
-47 Cairn Terriers , 13.0 , 14.0
-48 Canaan Dogs , 35.0 , 55.0
-49 Cardigan Welsh Corgis , 25.0 , 38.0
-50 Cavalier King Charles Spaniels , 13.0 , 18.0
-51 Cesky Terriers , 14.0 , 24.0
-52 Chihuahuas , 4.0 , 6.0
-53 Chinese Crested , 8.0 , 12.0
-54 Chinese Shar Pei , 45.0 , 60.0
-55 Chinooks , 50.0 , 90.0
-56 Chow Chows , 45.0 , 70.0
-57 Cirnechi dell Etna , 17.0 , 26.0
-58 Collies , 50.0 , 75.0
-59 Coton de Tulear , 8.0 , 15.0
-60 Standard Dachshunds , 16.0 , 32.0
-61 Miniature Dachunds , 11.0 , 11.0
-62 Dalmatians , 45.0 , 70.0
-63 Dandie Dinmont Terriers , 18.0 , 24.0
-64 Doberman Pinschers , 60.0 , 100.0
-65 Dogues de Bordeaux , 99.0 , 140.0
-66 English Foxhounds , 60.0 , 75.0
-67 English Toy Spaniels , 8.0 , 14.0
-68 Entlebucher Mountain Dogs , 55.0 , 65.0
-69 Finnish Lapphunds , 33.0 , 53.0
-70 Finnish Spitz , 20.0 , 33.0
-71 Fox Terriers , 16.0 , 18.0
-72 French Bulldogs , 16.0 , 28.0
-73 German Pinschers , 25.0 , 45.0
-74 German Shepherd Dogs , 50.0 , 90.0
-75 Giant Schnauzers , 55.0 , 85.0
-76 Glen of Imaal Terriers , 32.0 , 40.0
-77 Great Danes , 110.0 , 175.0
-78 Great Pyrenees , 80.0 , 120.0
-79 Greater Swiss Mountain Dogs , 85.0 , 140.0
-80 Greyhounds , 60.0 , 70.0
-81 Harriers , 45.0 , 60.0
-82 Havanese , 7.0 , 13.0
-83 Ibizan Hounds , 45.0 , 50.0
-84 Icelandic Sheepdogs , 25.0 , 30.0
-85 Irish Terriers , 25.0 , 27.0
-86 Irish Wolfhounds , 105.0 , 120.0
-87 Italian Greyhounds , 7.0 , 14.0
-88 Japanese Chin , 7.0 , 11.0
-89 Keeshonden , 35.0 , 45.0
-90 Kerry Blue Terriers , 33.0 , 40.0
-91 Komondor , 80.0 , 130.0
-92 Kuvaszok , 70.0 , 115.0
-93 Lagotti Romagnoli , 24.0 , 35.0
-94 Lakeland Terriers , 17.0 , 17.0
-95 Leonbergers , 90.0 , 170.0
-96 Lhasa Apsos , 12.0 , 18.0
-97 Lowchen , 15.0 , 15.0
-98 Maltese , 7.0 , 7.0
-99 Toy Manchester Terriers , 7.0 , 12.0
-100 Standard Manchester Terriers , 12.0 , 22.0
-101 Mastiffs , 120.0 , 230.0
-102 Miniature American Shepherds , 20.0 , 40.0
-103 Miniature Bull Terriers , 18.0 , 28.0
-104 Miniature Pinschers , 8.0 , 10.0
-105 Miniature Schnauzers , 11.0 , 20.0
-106 Neapolitan Mastiffs , 110.0 , 150.0
-107 Newfoundlands , 100.0 , 150.0
-108 Norfolk Terriers , 11.0 , 12.0
-109 Norwegian Buhunds , 26.0 , 40.0
-110 Norwegian Elkhounds , 48.0 , 55.0
-111 Norwegian Lundehunds , 20.0 , 30.0
-112 Norwich Terriers , 12.0 , 12.0
-113 Old English Sheepdogs , 60.0 , 100.0
-114 Otterhounds , 80.0 , 115.0
-115 Papillons , 5.0 , 10.0
-116 Parson Russell Terriers , 13.0 , 17.0
-117 Pekingese , 7.0 , 14.0
-118 Pembroke Welsh Corgis , 22.0 , 30.0
-119 Petits Bassets Griffons Vendeens , 25.0 , 40.0
-120 Pharaoh Hounds , 45.0 , 55.0
-121 Plotts , 40.0 , 60.0
-122 Pointers , 45.0 , 75.0
-123 Pointers (German Shorthaired) , 45.0 , 70.0
-124 Pointers (German Wirehaired) , 50.0 , 70.0
-125 Polish Lowland Sheepdogs , 30.0 , 50.0
-126 Pomeranians , 3.0 , 7.0
-127 Toy Poodles , 4.0 , 6.0
-128 Miniature Poodles , 10.0 , 15.0
-129 Standard Poodle , 40.0 , 70.0
-130 Portuguese Podengo Pequenos , 9.0 , 13.0
-131 Portuguese Water Dogs , 35.0 , 60.0
-132 Pugs , 14.0 , 18.0
-133 Pulik , 25.0 , 35.0
-134 Pumik , 22.0 , 29.0
-135 Pyrenean Shepherds , 15.0 , 30.0
-136 Rat Terriers , 10.0 , 25.0
-137 Redbone Coonhounds , 45.0 , 70.0
-138 Retrievers (Chesapeake Bay) , 55.0 , 80.0
-139 Retrievers (Curly Coated) , 60.0 , 95.0
-140 Retrievers (Flat Coated) , 60.0 , 70.0
-141 Retrievers (Golden) , 55.0 , 75.0
-142 Retrievers (Labrador) , 55.0 , 80.0
-143 Retrievers (Nova Scotia Duck Tolling) , 35.0 , 50.0
-144 Rhodesian Ridgebacks , 70.0 , 85.0
-145 Rottweilers , 80.0 , 135.0
-146 Russell Terriers , 9.0 , 15.0
-147 Salukis , 40.0 , 65.0
-148 Samoyeds , 35.0 , 65.0
-149 Schipperkes , 10.0 , 16.0
-150 Scottish Deerhounds , 75.0 , 110.0
-151 Scottish Terriers , 18.0 , 22.0
-152 Sealyham Terriers , 22.0 , 24.0
-153 Setters (English) , 45.0 , 80.0
-154 Setters (Gordon) , 45.0 , 80.0
-155 Setters (Irish Red and White) , 35.0 , 60.0
-156 Setters (Irish) , 60.0 , 70.0
-157 Shetland Sheepdogs , 15.0 , 25.0
-158 Shiba Inu , 17.0 , 23.0
-159 Shih Tzu , 9.0 , 16.0
-160 Siberian Huskies , 35.0 , 60.0
-161 Silky Terriers , 10.0 , 10.0
-162 Skye Terriers , 32.0 , 45.0
-163 Sloughis , 35.0 , 50.0
-164 Soft Coated Wheaten Terriers , 30.0 , 40.0
-165 Spaniels (American Water) , 25.0 , 45.0
-166 Spaniels (Boykin) , 25.0 , 40.0
-167 Spaniels (Clumber) , 55.0 , 85.0
-168 Spaniels (English Cocker) , 26.0 , 34.0
-169 Spaniels (English Springer) , 40.0 , 50.0
-170 Spaniels (Field) , 35.0 , 50.0
-171 Spaniels (Irish Water) , 45.0 , 68.0
-172 Spaniels (Sussex) , 35.0 , 45.0
-173 Spaniels (Welsh Springer) , 35.0 , 55.0
-174 Spanish Water Dogs , 31.0 , 49.0
-175 Spinoni Italiani , 56.0 , 56.0
-176 St. Bernards , 120.0 , 180.0
-177 Staffordshire Bull Terriers , 24.0 , 38.0
-178 Standard Schnauzers , 30.0 , 50.0
-179 Swedish Vallhunds , 20.0 , 35.0
-180 Tibetan Mastiffs , 70.0 , 150.0
-181 Tibetan Terriers , 17.0 , 30.0
-182 Tibetan Spaniel , 9.0 , 15.0
-183 Toy Fox Terriers , 3.5 , 7.0
-184 Treeing Walker Coonhounds , 50.0 , 70.0
-185 Vizslas , 44.0 , 60.0
-186 Weimaraners , 55.0 , 90.0
-187 Welsh Terriers , 18.0 , 20.0
-188 West Highland White Terriers , 15.0 , 20.0
-189 Whippets , 25.0 , 40.0
-190 Wirehaired Pointing Griffons , 35.0 , 70.0
-191 Wirehaired Vizslas , 45.0 , 65.0
-192 Toy Xoloitzcuintli , 10.0 , 15.0
-193 Miniature Xoloitzcuintli , 15.0 , 30.0
-194 Standard Xoloitzcuintli , 30.0 , 55.0
-195 Yorkshire Terriers , 7.0 , 7.0
+1, Affenpinschers , 7.0 , 10.0
+2, Afghan Hounds , 50.0 , 60.0
+3, Airedale Terriers , 50.0 , 70.0
+4, Akitas , 70.0 , 130.0
+5, Alaskan Malamutes , 75.0 , 85.0
+6, American English Coonhounds , 45.0 , 65.0
+7, Toy American Eskimo Dog , 6.0 , 10.0
+8, Miniature American Eskimo Dog , 10.0 , 20.0
+9, Standard American Eskimo Dog 25 , 35.0 , 35.0
+10, American Foxhounds , 60.0 , 70.0
+11, American Hairless Terriers , 12.0 , 16.0
+12, American Staffordshire Terriers , 40.0 , 70.0
+13, Anatolian Shepherd Dogs , 80.0 , 150.0
+14, Australian Cattle Dogs , 35.0 , 50.0
+15, Australian Shepherds , 40.0 , 65.0
+16, Australian Terriers , 12.0 , 18.0
+17, Basenjis , 22.0 , 24.0
+18, Basset Hounds , 40.0 , 65.0
+19, Beagles , 18.0 , 35.0
+20, Bearded Collies , 45.0 , 55.0
+21, Beaucerons , 70.0 , 110.0
+22, Bedlington Terriers , 17.0 , 23.0
+23, Belgian Malinois , 40.0 , 80.0
+24, Belgian Sheepdogs , 45.0 , 75.0
+25, Belgian Tervuren , 45.0 , 75.0
+26, Bergamasco , 57.0 , 84.0
+27, Berger Picards , 50.0 , 70.0
+28, Bernese Mountain Dogs , 70.0 , 115.0
+29, Bichons Frises , 12.0 , 18.0
+30, Black and Tan Coonhounds , 65.0 , 110.0
+31, Black RussianTerriers , 80.0 , 130.0
+32, Bloodhounds , 80.0 , 110.0
+33, Bluetick Coonhounds , 45.0 , 80.0
+34, Boerboels , 150.0 , 200.0
+35, Border Collies , 30.0 , 55.0
+36, Border Terriers , 11.5 , 15.5
+37, Borzois , 60.0 , 105.0
+38, Boston Terriers , 12.0 , 25.0
+39, Bouviers des Flandres , 70.0 , 110.0
+40, Boxers , 40.0 , 80.0
+41, Briards , 55.0 , 100.0
+42, Brittanys , 30.0 , 40.0
+43, Brussels Griffons , 8.0 , 10.0
+44, Bull Terriers , 50.0 , 70.0
+45, Bulldogs , 40.0 , 50.0
+46, Bullmastiffs , 100.0 , 130.0
+47, Cairn Terriers , 13.0 , 14.0
+48, Canaan Dogs , 35.0 , 55.0
+49, Cardigan Welsh Corgis , 25.0 , 38.0
+50, Cavalier King Charles Spaniels , 13.0 , 18.0
+51, Cesky Terriers , 14.0 , 24.0
+52, Chihuahuas , 4.0 , 6.0
+53, Chinese Crested , 8.0 , 12.0
+54, Chinese Shar Pei , 45.0 , 60.0
+55, Chinooks , 50.0 , 90.0
+56, Chow Chows , 45.0 , 70.0
+57, Cirnechi dell Etna , 17.0 , 26.0
+58, Collies , 50.0 , 75.0
+59, Coton de Tulear , 8.0 , 15.0
+60, Standard Dachshunds , 16.0 , 32.0
+61, Miniature Dachunds , 11.0 , 11.0
+62, Dalmatians , 45.0 , 70.0
+63, Dandie Dinmont Terriers , 18.0 , 24.0
+64, Doberman Pinschers , 60.0 , 100.0
+65, Dogues de Bordeaux , 99.0 , 140.0
+66, English Foxhounds , 60.0 , 75.0
+67, English Toy Spaniels , 8.0 , 14.0
+68, Entlebucher Mountain Dogs , 55.0 , 65.0
+69, Finnish Lapphunds , 33.0 , 53.0
+70, Finnish Spitz , 20.0 , 33.0
+71, Fox Terriers , 16.0 , 18.0
+72, French Bulldogs , 16.0 , 28.0
+73, German Pinschers , 25.0 , 45.0
+74, German Shepherd Dogs , 50.0 , 90.0
+75, Giant Schnauzers , 55.0 , 85.0
+76, Glen of Imaal Terriers , 32.0 , 40.0
+77, Great Danes , 110.0 , 175.0
+78, Great Pyrenees , 80.0 , 120.0
+79, Greater Swiss Mountain Dogs , 85.0 , 140.0
+80, Greyhounds , 60.0 , 70.0
+81, Harriers , 45.0 , 60.0
+82, Havanese , 7.0 , 13.0
+83, Ibizan Hounds , 45.0 , 50.0
+84, Icelandic Sheepdogs , 25.0 , 30.0
+85, Irish Terriers , 25.0 , 27.0
+86, Irish Wolfhounds , 105.0 , 120.0
+87, Italian Greyhounds , 7.0 , 14.0
+88, Japanese Chin , 7.0 , 11.0
+89, Keeshonden , 35.0 , 45.0
+90, Kerry Blue Terriers , 33.0 , 40.0
+91, Komondor , 80.0 , 130.0
+92, Kuvaszok , 70.0 , 115.0
+93, Lagotti Romagnoli , 24.0 , 35.0
+94, Lakeland Terriers , 17.0 , 17.0
+95, Leonbergers , 90.0 , 170.0
+96, Lhasa Apsos , 12.0 , 18.0
+97, Lowchen , 15.0 , 15.0
+98, Maltese , 7.0 , 7.0
+99, Toy Manchester Terriers , 7.0 , 12.0
+100, Standard Manchester Terriers , 12.0 , 22.0
+101, Mastiffs , 120.0 , 230.0
+102, Miniature American Shepherds , 20.0 , 40.0
+103, Miniature Bull Terriers , 18.0 , 28.0
+104, Miniature Pinschers , 8.0 , 10.0
+105, Miniature Schnauzers , 11.0 , 20.0
+106, Neapolitan Mastiffs , 110.0 , 150.0
+107, Newfoundlands , 100.0 , 150.0
+108, Norfolk Terriers , 11.0 , 12.0
+109, Norwegian Buhunds , 26.0 , 40.0
+110, Norwegian Elkhounds , 48.0 , 55.0
+111, Norwegian Lundehunds , 20.0 , 30.0
+112, Norwich Terriers , 12.0 , 12.0
+113, Old English Sheepdogs , 60.0 , 100.0
+114, Otterhounds , 80.0 , 115.0
+115, Papillons , 5.0 , 10.0
+116, Parson Russell Terriers , 13.0 , 17.0
+117, Pekingese , 7.0 , 14.0
+118, Pembroke Welsh Corgis , 22.0 , 30.0
+119, Petits Bassets Griffons Vendeens , 25.0 , 40.0
+120, Pharaoh Hounds , 45.0 , 55.0
+121, Plotts , 40.0 , 60.0
+122, Pointers , 45.0 , 75.0
+123, Pointers (German Shorthaired) , 45.0 , 70.0
+124, Pointers (German Wirehaired) , 50.0 , 70.0
+125, Polish Lowland Sheepdogs , 30.0 , 50.0
+126, Pomeranians , 3.0 , 7.0
+127, Toy Poodles , 4.0 , 6.0
+128, Miniature Poodles , 10.0 , 15.0
+129, Standard Poodle , 40.0 , 70.0
+130, Portuguese Podengo Pequenos , 9.0 , 13.0
+131, Portuguese Water Dogs , 35.0 , 60.0
+132, Pugs , 14.0 , 18.0
+133, Pulik , 25.0 , 35.0
+134, Pumik , 22.0 , 29.0
+135, Pyrenean Shepherds , 15.0 , 30.0
+136, Rat Terriers , 10.0 , 25.0
+137, Redbone Coonhounds , 45.0 , 70.0
+138, Retrievers (Chesapeake Bay) , 55.0 , 80.0
+139, Retrievers (Curly Coated) , 60.0 , 95.0
+140, Retrievers (Flat Coated) , 60.0 , 70.0
+141, Retrievers (Golden) , 55.0 , 75.0
+142, Retrievers (Labrador) , 55.0 , 80.0
+143, Retrievers (Nova Scotia Duck Tolling) , 35.0 , 50.0
+144, Rhodesian Ridgebacks , 70.0 , 85.0
+145, Rottweilers , 80.0 , 135.0
+146, Russell Terriers , 9.0 , 15.0
+147, Salukis , 40.0 , 65.0
+148, Samoyeds , 35.0 , 65.0
+149, Schipperkes , 10.0 , 16.0
+150, Scottish Deerhounds , 75.0 , 110.0
+151, Scottish Terriers , 18.0 , 22.0
+152, Sealyham Terriers , 22.0 , 24.0
+153, Setters (English) , 45.0 , 80.0
+154, Setters (Gordon) , 45.0 , 80.0
+155, Setters (Irish Red and White) , 35.0 , 60.0
+156, Setters (Irish) , 60.0 , 70.0
+157, Shetland Sheepdogs , 15.0 , 25.0
+158, Shiba Inu , 17.0 , 23.0
+159, Shih Tzu , 9.0 , 16.0
+160, Siberian Huskies , 35.0 , 60.0
+161, Silky Terriers , 10.0 , 10.0
+162, Skye Terriers , 32.0 , 45.0
+163, Sloughis , 35.0 , 50.0
+164, Soft Coated Wheaten Terriers , 30.0 , 40.0
+165, Spaniels (American Water) , 25.0 , 45.0
+166, Spaniels (Boykin) , 25.0 , 40.0
+167, Spaniels (Clumber) , 55.0 , 85.0
+168, Spaniels (English Cocker) , 26.0 , 34.0
+169, Spaniels (English Springer) , 40.0 , 50.0
+170, Spaniels (Field) , 35.0 , 50.0
+171, Spaniels (Irish Water) , 45.0 , 68.0
+172, Spaniels (Sussex) , 35.0 , 45.0
+173, Spaniels (Welsh Springer) , 35.0 , 55.0
+174, Spanish Water Dogs , 31.0 , 49.0
+175, Spinoni Italiani , 56.0 , 56.0
+176, St. Bernards , 120.0 , 180.0
+177, Staffordshire Bull Terriers , 24.0 , 38.0
+178, Standard Schnauzers , 30.0 , 50.0
+179, Swedish Vallhunds , 20.0 , 35.0
+180, Tibetan Mastiffs , 70.0 , 150.0
+181, Tibetan Terriers , 17.0 , 30.0
+182, Tibetan Spaniel , 9.0 , 15.0
+183, Toy Fox Terriers , 3.5 , 7.0
+184, Treeing Walker Coonhounds , 50.0 , 70.0
+185, Vizslas , 44.0 , 60.0
+186, Weimaraners , 55.0 , 90.0
+187, Welsh Terriers , 18.0 , 20.0
+188, West Highland White Terriers , 15.0 , 20.0
+189, Whippets , 25.0 , 40.0
+190, Wirehaired Pointing Griffons , 35.0 , 70.0
+191, Wirehaired Vizslas , 45.0 , 65.0
+192, Toy Xoloitzcuintli , 10.0 , 15.0
+193, Miniature Xoloitzcuintli , 15.0 , 30.0
+194, Standard Xoloitzcuintli , 30.0 , 55.0
+195, Yorkshire Terriers , 7.0 , 7.0
