@@ -5,9 +5,8 @@ import csv
 
 @app.route('/')
 @app.route('/index')
-def index(): #makes the dogbreedform the welcome page
-    form = DogBreedForm()
-    return render_template('breedform.html', title = 'Dog Info', form=form)
+def index(): 
+    return "Welcome!"
 #@app.route('/load')
 #def load(): #loads data
     # def load_resources(self):
