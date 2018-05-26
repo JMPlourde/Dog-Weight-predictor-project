@@ -1,6 +1,5 @@
 from flask import render_template
 from app import app
-from app.forms import DogBreedForm
 import csv
 
 @app.route('/')
