@@ -5,6 +5,8 @@ import flask
 from app.models import DogBreeds
 
 
+
+
 @app.route('/')
 @app.route('/index')
 def index(): 
@@ -20,8 +22,8 @@ def load_resources():
         for row in reader:
             data = DogBreeds(id=row[0], breedname=row[1], minweight=row[2], maxweight=row[3])
             db.session.add(data)
-        print("Resources loaded.  There are now %i resources into the database." % db.session.query(DogBreeds).count())
-       #db.session.commit()
+        return "Resources loaded.  There are now %i resources into the database." % db.session.query(DogBreeds).count()
+        db.session.commit()
     
 #def getbreeds():
 #    for line in db:
