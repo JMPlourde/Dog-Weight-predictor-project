@@ -48,11 +48,7 @@ def getbreed(post_id):
             data = DogBreeds(breedid=row[0], breedname=row[1], minweight=row[2], maxweight=row[3])
             db.session.add(data)
             breeds = db.session.query(DogBreeds).all()
-        DogBreedWeight = [i.serialize for i in breeds]
-        for row in jsonify(DogBreedWeight):
+
+        for row in jsonify(DogBreedWeight = [i.serialize for i in breeds]):
             if row['breedid'] == post_id:
-                return row
-
-
-
-
+                return jsonify(row)
