@@ -44,9 +44,11 @@ def getbreed(post_id):
         reader = csv.reader(dogweightcsv, delimiter=",")  # load each row as an instance (dataitem) of dogbreedclass
         print(reader)
         next(reader, None)  # skip the headers
-        breeds = db.session.query(DogBreeds).all()
+        for row in reader:
+            data = DogBreeds(breedid=row[0], breedname=row[1], minweight=row[2], maxweight=row[3])
+            db.session.add(data)
+            breeds = db.session.query(DogBreeds).all()
         DogBreedWeight = [i.serialize for i in breeds]
-        print(DogBreedWeight)
         for row in jsonify(DogBreedWeight):
             if row['breedid'] == post_id:
                 return row
