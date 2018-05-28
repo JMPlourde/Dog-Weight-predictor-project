@@ -48,6 +48,6 @@ def getbreed(breed_id):
         for row in reader:
             data = DogBreeds(breedid=row[0], breedname=row[1], minweight=row[2], maxweight=row[3])
             db.session.add(data)
-            breed = [breed for breed in DogBreeds if breed['id'] == breed_id]
-        return jsonify(DogBreedWeight=[i.serialize for i in breed])
+            if breed_id == breedid
+                return jsonify(DogBreedWeight=[i.serialize for i in breed])
         db.session.commit()
