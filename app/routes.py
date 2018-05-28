@@ -28,4 +28,5 @@ def load_resources():
 
 @app.route('/get')
 def getbreeds():
-    return jsonify(DogBreedWeight=[i.serialize for i in DogBreeds])
+    breeds = db.session.query(DogBreeds.all())
+    return jsonify(DogBreedWeight=[i.serialize for i in breeds])
