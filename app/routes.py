@@ -1,7 +1,7 @@
 from app import app, db
 import csv
 import flask
-from flask import json, jsonify
+from flask import json, jsonify, request
 
 from app.models import DogBreeds
 
@@ -39,3 +39,17 @@ def getbreed(post_id):
         for row in Dogs:
             if row['breedid'] == post_id:
                 return jsonify(results=row)
+
+@app.route ('/post')
+def new_breed():
+    if not request.json or not 'title' in request.json:
+        return "please enter in json"
+    breeds = db.session.query(DogBreeds).all()
+    newbreed = {
+        'breedid': DogBreeds[-1]['id'] + 1,
+        'breedname': request.json['title'],
+        'minweight': request.json['minweight'],
+        'maxweight': request.json['maxweight']
+    }
+    breeds.append(newbreed)
+    return jsonify({'newbreed':newbreed})
