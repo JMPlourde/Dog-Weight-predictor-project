@@ -12,7 +12,7 @@ class DogBreeds(db.Model):
     def serialize(self):
         """Return object data in easily serializeable format"""
         return {
-            'id': self.breedid,'breedname': self.breedname,'minweight': self.minweight,'maxweight': self.maxweight}
+            'breedid': self.breedid,'breedname': self.breedname,'minweight': self.minweight,'maxweight': self.maxweight}
 
 def __repr__(self):
     return '<DogBreeds {}>'.format(self.breedname)
