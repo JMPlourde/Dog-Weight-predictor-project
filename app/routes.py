@@ -37,9 +37,8 @@ def getbreeds():
             db.session.add(data)
             breeds = db.session.query(DogBreeds).all()
         return jsonify(DogBreedWeight=[i.serialize for i in breeds])
-        db.session.commit()
 
-@app ('/getbreed')
+@app ('/getbreed/<int:post_id>')
 def getbreed(breed_id):
     with open('app/dogweight.csv', 'rt') as dogweightcsv:  # open csv
         reader = csv.reader(dogweightcsv, delimiter=",")  # load each row as an instance (dataitem) of dogbreedclass
@@ -48,6 +47,5 @@ def getbreed(breed_id):
         for row in reader:
             data = DogBreeds(breedid=row[0], breedname=row[1], minweight=row[2], maxweight=row[3])
             db.session.add(data)
-            if breed_id == breedid
-                return jsonify(DogBreedWeight=[i.serialize for i in breed])
-        db.session.commit()
+            if breed_id == 'breedid':
+                return jsonify(DogBreedWeight=[i.serialize for i in breed_id])
