@@ -27,12 +27,12 @@ def load_resources():
 
 
 
-@app.route('/get')
+@app.route('/breeds')
 def getbreeds():
     breeds = db.session.query(DogBreeds).all()
     return jsonify(DogBreedWeight=[i.serialize for i in breeds])
 
-@app.route ('/getbreed/<int:post_id>')
+@app.route ('/singlebreed/<int:post_id>')
 def getbreed(post_id):
         breeds = db.session.query(DogBreeds).all()
         Dogs = [i.serialize for i in breeds]
@@ -40,16 +40,17 @@ def getbreed(post_id):
             if row['breedid'] == post_id:
                 return jsonify(results=row)
 
-@app.route ('/post')
+@app.route ('/breeds', methods = ['POST'])
 def new_breed():
-    if not request.json or not 'title' in request.json:
+    if not request.json:
         return "please enter in json"
     breeds = db.session.query(DogBreeds).all()
+    Dogs = [i.serialize for i in breeds]
     newbreed = {
-        'breedid': DogBreeds[-1]['id'] + 1,
-        'breedname': request.json['title'],
+        'breedid': Dogs[-1]['breedid'] + 1,
+        'breedname': request.json['breedname'],
         'minweight': request.json['minweight'],
         'maxweight': request.json['maxweight']
     }
     breeds.append(newbreed)
-    return jsonify({'newbreed':newbreed})
+    return '', 204
