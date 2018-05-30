@@ -53,17 +53,19 @@ def new_breed():
     db.session.commit()
     return '', 204
 
-@app.route('breeds/<int:put_id>', methods=['PUT'])
+@app.route('/breeds/<int:put_id>', methods=['PUT'])
 def update_breed(put_id):
     breeds = db.session.query(DogBreeds).all()
     Dogs = [i.serialize for i in breeds]
     for row in Dogs:
         if row['breedid'] == put_id:
-            DogBreeds(breedid=['put_id'], breedname=request.json['breedname'], minweight=request.json['minweight'], maxweight=request.json['maxweight'])
+            replace_breed = DogBreeds(breedid=['breedid'], breedname=request.json['breedname'], minweight=request.json['minweight'], maxweight=request.json['maxweight'])
+    db.session.add(replace_breed)
+    db.session.commit()
     return '',204
 
 
-#@app.route('/todo/api/v1.0/tasks/<int:task_id>', methods=['DELETE'])
+#@app.route('/')
 #def delete_task(task_id):
  #   task = [task for task in tasks if task['id'] == task_id]
   #  if len(task) == 0:
