@@ -32,13 +32,10 @@ def getbreeds():
     breeds = db.session.query(DogBreeds).all()
     return jsonify(DogBreedWeight=[i.serialize for i in breeds])
 
-@app.route ('/singlebreed/<int:post_id>')
+@app.route ('/breeds/<int:post_id>')
 def getbreed(post_id):
-        breeds = db.session.query(DogBreeds).all()
-        Dogs = [i.serialize for i in breeds]
-        for row in Dogs:
-            if row['breedid'] == post_id:
-                return jsonify(results=row)
+    breed = db.session.query(DogBreeds.breedid).filter(DogBreeds.breedid==post_id)
+    return jsonify(DogBreedWeight = [i.serialize for i in breed])
 
 @app.route ('/breeds', methods = ['POST'])
 def new_breed():
@@ -46,16 +43,14 @@ def new_breed():
         return "please enter in json"
     else:
         print('nothing')
-    breeds = db.session.query(DogBreeds).all()
-    Dogs = [i.serialize for i in breeds]
-    newbreed = DogBreeds(breedid=Dogs[-1]['breedid'] + 1, breedname=request.json['breedname'], minweight=request.json['minweight'], maxweight=request.json['maxweight'])
+    newbreed = DogBreeds(breedname=request.json['breedname'], minweight=request.json['minweight'], maxweight=request.json['maxweight'])
     db.session.add(newbreed)
     db.session.commit()
     return '', 204
 
 @app.route('/breeds/<int:put_id>', methods=['PUT'])
 def update_breed(put_id):
-    old_breed = db.session.query(DogBreeds).filter_by(breedid='put_id')
+    old_breed = db.session.query(DogBreeds).filter(breedid='put_id')
     replace_breed = DogBreeds(breedid=['breedid'], breedname=request.json['breedname'], minweight=request.json['minweight'], maxweight=request.json['maxweight'])
     db.session.delete(old_breed)
     db.session.add(replace_breed)
