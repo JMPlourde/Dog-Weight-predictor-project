@@ -59,8 +59,11 @@ def update_breed(put_id):
     Dogs = [i.serialize for i in breeds]
     for row in Dogs:
         if row['breedid'] == put_id:
+            old_breed= DogBreeds.query.filter_by(breedid = 'put_id')
             replace_breed = DogBreeds(breedid=['breedid'], breedname=request.json['breedname'], minweight=request.json['minweight'], maxweight=request.json['maxweight'])
-    db.session.add(replace_breed)
+        db.session.delete(old_breed)
+        db.commit()
+        db.session.add(replace_breed)
     db.session.commit()
     return '',204
 
