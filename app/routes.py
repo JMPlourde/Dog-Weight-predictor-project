@@ -34,8 +34,8 @@ def getbreeds():
 
 @app.route ('/breeds/<int:post_id>')
 def getbreed(post_id):
-    breed = db.session.query(DogBreeds.breedid).filter(DogBreeds.breedid==post_id)
-    return jsonify(DogBreedWeight = [i.serialize for i in breed])
+    breed = db.session.query(DogBreeds).filter(DogBreeds.breedid==post_id).first()
+    return jsonify(breed.serialize)
 
 @app.route ('/breeds', methods = ['POST'])
 def new_breed():
@@ -50,13 +50,13 @@ def new_breed():
 
 @app.route('/breeds/<int:put_id>', methods=['PUT'])
 def update_breed(put_id):
-    old_breed = db.session.query(DogBreeds).filter(breedid='put_id')
-    replace_breed = DogBreeds(breedid=['breedid'], breedname=request.json['breedname'], minweight=request.json['minweight'], maxweight=request.json['maxweight'])
+    old_breed = db.session.query(DogBreeds).filter(DogBreeds.breedid==put_id)
     db.session.delete(old_breed)
+    replace_breed = DogBreeds(breedid=['put_id'], breedname=request.json['breedname'], minweight=request.json['minweight'], maxweight=request.json['maxweight'])
+
     db.session.add(replace_breed)
     db.session.commit()
     return '',204
-
 
 #@app.route('/')
 #def delete_task(task_id):
