@@ -51,17 +51,18 @@ def new_breed():
 @app.route('/breeds/<int:put_id>', methods=['PUT'])
 def update_breed(put_id):
     breed = db.session.query(DogBreeds).filter(DogBreeds.breedid == put_id).first()
-    breed['breedname'] = request.json.get('breedname', breed[0]['breedname'])
-    breed['minweight'] = request.json.get('minweight', breed[0]['minweight'])
-    breed['maxweight'] = request.json.get('maxweight', breed[0]['maxweight'])
-    return breed
-    db.session.add(breed)
-    db.commit()
-
+    breedname = request.json['breedname']
+    minweight = request.json['minweight']
+    maxweight = request.json['maxweight']
+    breed.breedname = breedname
+    breed.minweight = minweight
+    breed.maxweight = maxweight
+    db.session.commit()
+    return jsonify(breed.serialize)
 
 app.route('/breeds/<int:put_id>', methods=['DEL'])
 def delete_task(del_id):
     breed = db.session.query(DogBreeds).filter(DogBreeds.breedid == del_id).first()
-    return breed
     db.session.delete(breed)
     db.session.commit
+    return jsonify(breed.serialize), 'deleted'
