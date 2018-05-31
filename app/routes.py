@@ -60,7 +60,7 @@ def update_breed(put_id):
     db.session.commit()
     return jsonify(breed.serialize)
 
-app.route('/breeds/<int:put_id>', methods=['DEL'])
+app.route('/breeds/<int:put_id>', methods=['DELETE'])
 def delete_task(del_id):
     breed = db.session.query(DogBreeds).filter(DogBreeds.breedid == del_id).first()
     db.session.delete(breed)
